@@ -12,3 +12,7 @@ def input_to_index(cadena)
   index = cadena.to_i
   index -= 1
 end
+
+def move(board, index, caracter)
+  
+end
