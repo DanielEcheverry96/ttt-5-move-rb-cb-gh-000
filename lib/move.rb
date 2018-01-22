@@ -7,3 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index(cadena)
+  index = cadena.to_i
+  index -= 1
+end
