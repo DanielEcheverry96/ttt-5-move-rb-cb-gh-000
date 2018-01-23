@@ -16,7 +16,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(board, index, caracter)
-  board[index] = "#{caracter}"
+  board[index] = caracter
 end
 
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
@@ -30,5 +30,5 @@ move(board, 4, "X")
 move(board, 5, "O")
 move(board, 6, "X")
 move(board, 7, "X")
-move(board, 8, "O") 
+move(board, 8, "O")
 display_board(board)
