@@ -21,5 +21,5 @@ end
 
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-move(board, input_to_index("5"), "X")
+move(board, input_to_index("9"), "X")
 display_board(board)
