@@ -18,3 +18,7 @@ def move(board, index, caracter)
 end
 
 board = ["", "", "", "", "", "", "", "", ""]
+
+tabla = move(board, 2, X)
+display_board(tabla)
+
