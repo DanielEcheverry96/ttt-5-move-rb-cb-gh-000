@@ -17,7 +17,7 @@ def move(board, index, caracter)
   board[index] = " #{caracter} "
 end
 
-board = ["", "", "", "", "", "", "", "", ""]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 tabla = move(board, 2, "X")
 display_board(tabla)
