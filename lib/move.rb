@@ -13,15 +13,10 @@ def input_to_index(cadena)
   index -= 1
 end
 
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 def move(board, index, caracter = "X")
   board[index] = caracter
 end
 
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-#move(board, input_to_index("9"), "X")
 #move(board, 0, "X")
 #move(board, 1, "O")
 #move(board, 2, "X")
