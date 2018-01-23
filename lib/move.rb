@@ -13,7 +13,7 @@ def input_to_index(cadena)
   index -= 1
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["", "", "", "", "", "", "", "", ""]
 
 def move(board, index, caracter)
   board[index] = " #{caracter} "
