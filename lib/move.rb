@@ -13,11 +13,13 @@ def input_to_index(cadena)
   index -= 1
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def move(board, index, caracter)
   board[index] = " #{caracter} "
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-tabla = move(board, 8, "X")
-display_board(tabla)
+move(board, 8, "X")
+display_board(board)
