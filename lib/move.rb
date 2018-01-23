@@ -16,3 +16,5 @@ end
 def move(board, index, caracter)
   board[index] = " #{caracter} "
 end
+
+board = ["", "", "", "", "", "", "", "", ""]
