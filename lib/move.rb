@@ -19,5 +19,5 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-tabla = move(board, input_to_index("5"), "X")
+tabla = move(board, input_to_index("7"), "X")
 display_board(tabla)
